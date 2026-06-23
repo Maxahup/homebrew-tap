@@ -7,10 +7,10 @@ class CliHelper < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/Maxahup/cli-command-helper/releases/download/v1.1.0/cli-helper-darwin-arm64"
-      sha256 "57dec9fe6634fab046c1929bf3fb476757f9d385000ea28408a99cf9b619be46"
+      sha256 "c6c6f6da7ef0df9fa5c65690b6c70c4010c49449e9700852cbf69c2404c844b7"
     elsif Hardware::CPU.intel?
       url "https://github.com/Maxahup/cli-command-helper/releases/download/v1.1.0/cli-helper-darwin-amd64"
-      sha256 "c6c6f6da7ef0df9fa5c65690b6c70c4010c49449e9700852cbf69c2404c844b7"
+      sha256 "57dec9fe6634fab046c1929bf3fb476757f9d385000ea28408a99cf9b619be46"
     end
 
   # SECCIÓN PARA LINUX
